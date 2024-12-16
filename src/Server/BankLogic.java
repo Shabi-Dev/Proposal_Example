@@ -12,17 +12,17 @@ public class BankLogic {
 
     // Initialisierung der Benutzerdaten und Kontostände
     private void initializeData() {
-        users.put("Shabi", "password1");
-        balances.put("Shabi", 1000.0);
+        users.put("user1", "password1");
+        balances.put("user1", 1000.0);
 
-        users.put("Tobias", "password2");
-        balances.put("Tobias", 1500.0);
+        users.put("user2", "password2");
+        balances.put("user2", 1500.0);
 
-        users.put("Finn", "password3");
-        balances.put("Finn", 2000.0);
+        users.put("user3", "password3");
+        balances.put("user3", 2000.0);
 
-        users.put("Morten", "password3");
-        balances.put("Morten", 2000.0);
+        users.put("user4", "password3");
+        balances.put("user4", 2000.0);
     }
 
     // Authentifizierung der Benutzer
